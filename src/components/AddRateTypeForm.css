@@ -1,0 +1,30 @@
+.main-form-container{  
+    flex: 1;
+    padding: 50px;
+}
+.form-container{
+    border: 1px solid #e3e2e2;
+    border-radius: 5px;
+    padding: 25px;
+}
+.icon-heading{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icon{
+    color: #3099e4;
+}
+.form-heading{
+    font-size: larger;
+}
+.input-container{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input-box{
+    width: 100%;
+}

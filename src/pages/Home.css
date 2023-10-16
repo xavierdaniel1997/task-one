@@ -1,0 +1,13 @@
+.main{
+    margin: 50px 200px;
+
+}
+.addrateform-container{
+    margin-top: 50px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2)
+}
+.form-result{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
