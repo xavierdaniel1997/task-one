@@ -2,7 +2,7 @@ import React from "react";
 import AddRateTypeForm from "../components/AddRateTypeForm";
 import "./Home.css";
 
-import {TextField} from "@mui/material";
+import {Button, TextField} from "@mui/material";
 import AvaliableRateType from "../components/AvaliableRateType";
 
 const Home = () => {
@@ -17,6 +17,10 @@ const Home = () => {
         <AddRateTypeForm />
         <AvaliableRateType/>
         </div> 
+      </div>
+      <div className="button-containers">
+      <Button variant="contained">Next</Button>
+      <Button variant="outlined">Exit</Button>
       </div>
     </div>
   );

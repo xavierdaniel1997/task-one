@@ -11,3 +11,9 @@
     align-items: center;
     justify-content: space-between;
 }
+.button-containers{
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}

@@ -1,3 +1,22 @@
-.avaliableRateType{
-    flex: 1;
+.avaliableRateType {
+  flex: 1;
+}
+
+.table-heading {
+  font-size: larger;
+  margin-bottom: 15px;
+}
+.table-container {
+  margin-right: 50px;
+  height: 430px;
+  overflow-y: auto;
+}
+.table-header {
+  position: static;
+  top: 0;
+  background-color: rgb(226, 227, 227);
+}
+.tableresults {
+  display: flex;
+  justify-content: space-between;
 }

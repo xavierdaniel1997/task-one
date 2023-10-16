@@ -27,4 +27,9 @@
 }
 .input-box{
     width: 100%;
+    background: #f4f3f3;
+    border: none;
+}
+.description-box{
+    background: #f4f3f3;
 }
