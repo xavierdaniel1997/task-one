@@ -2,8 +2,11 @@ import React from "react";
 import AddRateTypeForm from "../components/AddRateTypeForm";
 import "./Home.css";
 
-import {Button, TextField} from "@mui/material";
+import {Button} from "@mui/material";
 import AvaliableRateType from "../components/AvaliableRateType";
+
+
+
 
 const Home = () => {
   return (
@@ -14,7 +17,7 @@ const Home = () => {
       </div>
       <div className="addrateform-container">
         <div className="form-result">
-        <AddRateTypeForm />
+        <AddRateTypeForm/>
         <AvaliableRateType/>
         </div> 
       </div>

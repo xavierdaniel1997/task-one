@@ -39,8 +39,8 @@ const AvaliableRateType = () => {
             <TableBody>
               {tableDatas.map((data, index) => (
               <TableRow key={index} className="table-body">
-                <TableCell>{data.newRateType}</TableCell>
-                <TableCell>{data.discription}</TableCell>
+                <TableCell>{data.rateType}</TableCell>
+                <TableCell>{data.description}</TableCell>
               </TableRow>
             ))}
             </TableBody>
